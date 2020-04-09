@@ -10,7 +10,7 @@ git pull
 ## Merge instructor's changes into my files
 '''
 git checkout Jackson # Move to my branch that is associated with my remote
-git merge master # Merge master *into* my branch
+git merge master # Merge master INTO my branch
 '''
 ## Push my changes to my remote
 '''
