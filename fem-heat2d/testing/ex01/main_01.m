@@ -71,10 +71,10 @@ ax.XLim = [-0.1, 1.1];
 ax.YLim = [-0.1, 1.1];
 
 % plot_node(ax, 1:nnp, x,y,z, 'r');
-plot_node_labels(ax, 1:nnp, x,y,z);
+plot_node_labels(ax, 1:nnp, x,y,z)
 
-plot_element(ax, 1:nel, IEN, eltype, x,y,z, 'surf_alpha', 0.2);
-plot_element_labels(ax, IEN, eltype, x, y, z);
+plot_element(ax, 1:nel, IEN, eltype, x,y,z, 'surf_alpha', 0.2)
+plot_element_labels(ax, IEN, eltype, x, y, z)
 
 
 %% generate or load gaussian quadrature information
@@ -150,4 +150,4 @@ q(1:neq) = K_ff\( R - K_fr*q(idx_fr) );
 ax2.XLim = [-0.1, 1.1];
 ax2.YLim = [-0.1, 1.1];
 
-plot_element_solution(ax2, IEN, ID, eltype, x, y, z, q);
+plot_element_solution(ax2, IEN, ID, eltype, x, y, z, q)
